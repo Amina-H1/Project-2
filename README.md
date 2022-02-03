@@ -2,11 +2,22 @@
 # Group "Go Data Way" (Extract, Transform, Load)
 ### Coronavirus (COVID-19) Daily Update Database
 
-#### Extract
 
 
-#### Tranform
+### **1.Extract**
 
 
-#### Load
+
+
+
+
+
+### **2.Tranform**
+
+
+
+
+
+
+### **3.Load**
 
