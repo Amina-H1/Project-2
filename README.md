@@ -8,8 +8,8 @@ The data can be found here: https://data.london.gov.uk/dataset/coronavirus--covi
 The process involves Extracting (E) the '.csv' files, Transforming (T) the data into a format which we can merge the files, and then finally Lodaing (L) the files into a small data warehouse using MySQL workbench.
 
 #### Research Questions
-* Which Borough has the highest death count?
-* Which borough has the highest vaccine rate?
+1. Which Borough has the highest death count?
+2. Which borough has the highest vaccine rate?
 
 #### **1. Extract**
 The extraction process was automated using `Splinter`. This enabled us to identify the relevant data and extract it automatically. Two sources of data were identified from the Coronavirus (COVID-19) Daily Update available on the Greater London Authority (GLA) Datastore website (See reference list below). There were two up-to-date `CSV files` available which outlined the number of Covid-19 deaths by borough and the number of vaccine uptake sorted by age-band and borough  
@@ -31,5 +31,9 @@ The `splinter` was imported onto `Jupyter notebook` and the browser was accessed
 
 #### **3. Load**
 In this step of the ETL process, the incoming data will be loaded into the target database using MySQL. 
-First using ‘postgreSQL’ we created a data warehouse using the ‘queries.sql’; which created a warehouse containing the following tables ‘borough_deaths’ and ‘borough_vaccines’. Once the warehouse was established, the tables can begin to be populated with the data we need using SQLAlchemy. This was done by importing ‘sqlalchemy’ and utilising it to push the data to the database using an engine connection and '.to_sql' function. Then finally to check the loadiung has been complete, queries were run to conduct a small analysis using our data within the warehouse.
+First using `postgreSQL` we created a data warehouse using the `queries.sql`; which created a warehouse containing the following tables `borough_deaths` and `borough_vaccines`. Once the warehouse was established, the tables can begin to be populated with the data we need using `SQLAlchemy`. This was done by importing `sqlalchemy` and utilising it to push the data to the database using an engine connection and `.to_sql` function. Then finally to check the loadiung has been complete, queries were run to conduct a small analysis using our data within the warehouse.
+
+The findings showed that:
+1. Croydon has the highest death count in London from COVID-19.
+2. Wandsworth has the highest number of doses taken in London.
 
