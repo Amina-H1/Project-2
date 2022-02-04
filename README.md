@@ -41,3 +41,9 @@ The findings showed that:
 1. Croydon has the highest death count recorded in London from COVID-19.
 2. Indivduals between the ages of 25-29 years; living in Wandsworth, have the highest number of doses of the Vaccine taken in London.
 
+
+
+### References:
+
+Greater London Authority (GLA) (2022), Coronavirus (COVID-19) Daily Update (https://data.london.gov.uk/dataset/coronavirus--covid-19--cases)
+
