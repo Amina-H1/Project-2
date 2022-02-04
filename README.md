@@ -18,20 +18,8 @@ The extraction process was automated using `Splinter`. This enabled us to identi
 The `splinter` was imported onto [Jupyter notebook](https://github.com/Amina-H1/Project-2/blob/main/Extract%20CSV_Splinter.ipynb) and the browser was accessed through this method. By entering the `URL` for the Datastore website, the automated splinter was able to extract the two data sources in the CSV file format: [borough_deaths](https://github.com/Amina-H1/Project-2/blob/main/Resources/phe_deaths_london_boroughs.csv) and [borough_vaccines](https://github.com/Amina-H1/Project-2/blob/main/Resources/phe_vaccines_age_london_boroughs.csv).
 
 
-
-
-
-
-
-
-
-
 #### **2. Tranform**
-
-
-
-
-
+In this step, the downloaded CSV files using the extract procedure are first loaded into the data frames. The dataframes defined are phe_deaths_data_df & phe_vaccines_data_df. Removed some of the unncecessary columns from phe_vaccines_data_df and renamed it to phe_vaccines_data_df_updated. Renamed the index column in both of the data frames to "id" to match the tables creatd in the postgresql. After that the loading process starts to load data into the postgresql.
 
 #### **3. Load**
 In this step of the ETL process, the incoming data will be loaded into the target database using MySQL. 
