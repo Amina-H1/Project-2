@@ -15,7 +15,10 @@ The `ETL` process involves Extracting (E) the `.csv` files, Transforming (T) the
 #### **1. Extract**
 The extraction process was automated using `Splinter`. This enabled us to identify the relevant data and extract it automatically. Two sources of data were identified from the Coronavirus (COVID-19) Daily Update available on the Greater London Authority (GLA) Datastore website (See reference list below). There were two up-to-date `CSV files` available which outlined the number of Covid-19 deaths by borough and the number of vaccine uptake sorted by age-band and borough  
 
-The `splinter` was imported onto `Jupyter notebook` and the browser was accessed through this method. By entering the `URL` for the Datastore website, the automated splinter was able to extract the two data sources in the CSV file format. 
+The `splinter` was imported onto `Jupyter notebook` and the browser was accessed through this method. By entering the `URL` for the Datastore website, the automated splinter was able to extract the two data sources in the CSV file format: [borough_deaths](https://github.com/Amina-H1/Project-2/blob/main/Resources/phe_deaths_london_boroughs.csv) and [borough_vaccines](https://github.com/Amina-H1/Project-2/blob/main/Resources/phe_vaccines_age_london_boroughs.csv).
+
+
+
 
 
 
