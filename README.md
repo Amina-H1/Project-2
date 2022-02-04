@@ -3,7 +3,7 @@
 ## Coronavirus (COVID-19) Daily Update Database
 
 ### Abstract
-The objective of this project is to create a unified data repository/centralised database from multiple sources using the ETL process. In the case oof our project we will be utilising 'COVID-19 Daily Update' datasets from the `Greater London Authority` to create our database. 
+The objective of this project is to create a unified data repository/centralised database from multiple sources using the ETL process. In the case of our project we will be utilising 'COVID-19 Daily Update' datasets from the `Greater London Authority` to create our database. 
 The data can be found here: https://data.london.gov.uk/dataset/coronavirus--covid-19--cases.
 
 The `ETL` process involves Extracting (E) the `.csv` files, Transforming (T) the data into a format which we can merge the files, and then finally Lodaing (L) the files into a small data warehouse using `MySQL workbench`.
