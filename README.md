@@ -35,5 +35,5 @@ First using `postgreSQL` we created a data warehouse using the `queries.sql`; wh
 
 The findings showed that:
 1. Croydon has the highest death count recorded in London from COVID-19.
-2. Indivduals between the ages of 25-229 years; living in Wandsworth, have the highest number of doses of the Vaccine taken in London.
+2. Indivduals between the ages of 25-29 years; living in Wandsworth, have the highest number of doses of the Vaccine taken in London.
 
