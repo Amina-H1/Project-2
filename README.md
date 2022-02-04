@@ -34,6 +34,6 @@ In this step of the ETL process, the incoming data will be loaded into the targe
 First using `postgreSQL` we created a data warehouse using the `queries.sql`; which created a warehouse containing the following tables `borough_deaths` and `borough_vaccines`. Once the warehouse was established, the tables can begin to be populated with the data we need using `SQLAlchemy`. This was done by importing `sqlalchemy` and utilising it to push the data to the database using an engine connection and `.to_sql` function. Then finally to check the loadiung has been complete, queries were run to conduct a small analysis using our data within the warehouse.
 
 The findings showed that:
-1. Croydon has the highest death count in London from COVID-19.
-2. Wandsworth has the highest number of doses taken in London.
+1. Croydon has the highest death count recorded in London from COVID-19.
+2. Indivduals between the ages of 25-29 years; living in Wandsworth, have the highest number of doses of the Vaccine taken in London.
 
