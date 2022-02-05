@@ -19,7 +19,7 @@ The `splinter` was imported onto [Jupyter notebook](https://github.com/Amina-H1/
 
 
 #### **2. Tranform**
-In this step, the downloaded CSV files using the extract procedure are first loaded into the data frames. The dataframes defined are phe_deaths_data_df & phe_vaccines_data_df. Removed some of the unncecessary columns from phe_vaccines_data_df and renamed it to phe_vaccines_data_df_updated. Renamed the index column in both of the data frames to "id" to match the tables creatd in the postgresql. After that the loading process starts to load data into the postgresql.
+In this step, the downloaded CSV files using the extract procedure are loaded into the data frames. The dataframes defined are phe_deaths_data_df & phe_vaccines_data_df. Removed some of the unncecessary columns from phe_vaccines_data_df and renamed it to phe_vaccines_data_df_updated. Renamed the index column in both of the data frames to "id" to match the tables creatd in the postgresql. After that the loading process starts to load data into the postgresql.
 
 #### **3. Load**
 In this step of the ETL process, the incoming data will be loaded into the target database using MySQL. 
