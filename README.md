@@ -22,7 +22,7 @@ The `splinter` was imported onto [Jupyter notebook](https://github.com/Amina-H1/
 In this step, the downloaded `CSV files` using the extract procedure are loaded into the data frames. The dataframes defined are `phe_deaths_data_df` & `phe_vaccines_data_df`. Removed some of the unncecessary columns from `phe_vaccines_data_df`and renamed it to `phe_vaccines_data_df_updated`. Renamed the index column in both of the data frames to `id` to match the tables creatd in the `postgreSQL`. After that the loading process starts to load data into the `postgreSQL`.
 
 #### **3. Load**
-In this step of the ETL process, the incoming data will be loaded into the target database using MySQL. 
+In this step of the ETL process, the incoming data will be loaded into the target database using PostgreSQL. 
 First using `postgreSQL` we created a data warehouse using the `queries.sql`; which created a warehouse containing the following tables `borough_deaths` and `borough_vaccines`. Once the warehouse was established, the tables can begin to be populated with the data we need using `SQLAlchemy`. This was done by importing `sqlalchemy` and utilising it to push the data to the database using an engine connection and `.to_sql` function. Then finally to check the loading has been complete, queries were run to conduct a small analysis using our data within the warehouse.
 
 The findings showed that:
